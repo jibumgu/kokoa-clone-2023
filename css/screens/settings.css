@@ -1,3 +1,12 @@
+.alt-header__column:first-child,
+.alt-header__column:last-child {
+  color: #0f0;
+}
+
+.alt-header__column:nth-child(2) {
+  color: #fff;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -15,4 +24,8 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting-column {
+  color: #fff;
 }

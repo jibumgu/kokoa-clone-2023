@@ -1,3 +1,11 @@
+.icon-row {
+  color: #fff;
+}
+
+.icon-row i {
+  color: #0f0;
+}
+
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
@@ -6,7 +14,7 @@
 }
 .recommended-friends__title {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .recommended-friends span {
@@ -14,7 +22,7 @@
   display: block;
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .open-chat__header {
@@ -37,6 +45,11 @@
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;
+}
+
+.open-chat__header,
+.open-post__column {
+  color: #fff;
 }
 
 .open-post__hashtags {
@@ -66,7 +79,7 @@
   width: 2px;
   height: 15px;
   margin: 0 5px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #fff;
 }
 
 .open-post__member-status {

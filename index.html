@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Clone</title>
   </head>
-  <body>
+  <body class="index__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -30,10 +30,28 @@
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <div class="signin">
+        <div class="content">
+          <h2>Sign In</h2>
+          <div class="form">
+            <div class="inputBx">
+              <input name="username" type="text" required />
+              <i>Username</i>
+            </div>
+            <div class="inputBx">
+              <input name="password" type="password" required />
+              <i>Password</i>
+            </div>
+            <div class="links">
+              <a href="#">Forgot Password</a>
+              <a href="#">Signup</a>
+            </div>
+            <div class="inputBx">
+              <input type="submit" value="Log In" />
+            </div>
+          </div>
+        </div>
+      </div>
     </form>
 
     <div id="no-mobile">
