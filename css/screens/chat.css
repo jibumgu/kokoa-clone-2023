@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #131313;
   height: 500vh;
 }
 
@@ -8,8 +8,9 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: #131313;
   box-sizing: border-box;
+  border-bottom: 1px solid white;
 }
 
 #chat-screen .status-bar {
@@ -31,6 +32,10 @@
     opacity: 1;
   }
 }
+.message__author,
+.message__time {
+  color: white;
+}
 
 .main-chat {
   margin-top: 180px;
@@ -42,9 +47,11 @@
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  font-weight: 600;
+  background-color: #131313;
+  border: 1px solid white;
   padding: 15px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 25px;
   margin-bottom: 25px;
 }
@@ -106,8 +113,9 @@
 .reply {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  background-color: white;
+  height: 60px;
+  background-color: #131313;
+  border-top: 1px solid white;
   display: flex;
   justify-content: space-between;
   padding: 5px 25px;
@@ -135,6 +143,12 @@
   border-radius: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
+  background-color: #131313;
+}
+
+.reply input::placeholder {
+  color: white;
+  opacity: 0.8;
 }
 
 .reply__column:last-child > i,
@@ -184,4 +198,8 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.reply__column {
+  color: #0f0;
 }
