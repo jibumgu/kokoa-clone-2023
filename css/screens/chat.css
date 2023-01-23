@@ -144,6 +144,7 @@
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
   background-color: #131313;
+  color: white;
 }
 
 .reply input::placeholder {
